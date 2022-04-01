@@ -3,6 +3,10 @@
 Msc Computer Science project
 
 
+Dependencies:
+Next.js
+TailwindCSS
+
 ```bash
 npm run dev
 # or
