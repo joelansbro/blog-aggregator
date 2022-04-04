@@ -1,5 +1,6 @@
-import Navbar from '../components/Navbar'
-import '../styles/globals.css'
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import '../styles/globals.css';
 
 // used for persistance between pages
 
@@ -8,6 +9,7 @@ function MyApp({ Component, pageProps }) {
     <div>
       <Navbar/>
       <Component {...pageProps} />
+      <Footer/>
     </div>
   ) 
 }
